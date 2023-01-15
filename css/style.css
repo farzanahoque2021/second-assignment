@@ -264,14 +264,37 @@ main {
 }
 
 .fact-container {
-    border: 1px solid #FF900E;
-    border-radius: 8px;
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    animation: animate 10s ease-in infinite;
+}
+
+@keyframes animate {
+    0% {
+        border: 3px solid pink;
+    }
+
+    15% {
+        border: 3px solid lightseagreen;
+    }
+
+    25% {
+        border: 3px solid lightskyblue;
+    }
+
+    60% {
+        border: 3px solid lightgreen;
+    }
+
+    100% {
+        border: 3px solid salmon;
+    }
 }
 
 .fact-container img {
