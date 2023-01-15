@@ -163,3 +163,81 @@ main {
     font-size: 45px;
     color: #727272;
 }
+
+/* feature article styles */
+/* feature article part image & button styles */
+.article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+
+}
+
+.architect-image img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-secondary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+    border: 0;
+    padding: 30px 35px;
+    width: 250px;
+    height: 130px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+#experience {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.btn {
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+}
+
+
+
+/* feature article part container styles */
+.feature-article-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-article-description,
+.feature-container p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.feature-container h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.feature-article-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+}
+
+.feature-container {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
