@@ -424,3 +424,77 @@ main {
     color: #424242;
     text-align: center;
 }
+
+/* trying to make it responsive for mobile devices */
+@media only screen and (max-width:576px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section-title h3 {
+        font-size: 1 rem;
+    }
+
+    .header-title h3 {
+        font-size: 40px;
+    }
+
+    .feature {
+        flex-direction: column;
+    }
+
+    .feature-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .article {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fact-title h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .fact-description p {
+        font-size: 1 em;
+        text-align: center;
+    }
+
+    .fact-containers {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    .fact-container p {
+        text-align: center;
+    }
+
+    .sponsor-title h3 {
+        font-size: 1 em;
+    }
+
+    .sponsor-icons {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+
+    }
+
+    .extra-section {
+        display: none;
+    }
+
+    .footer {
+        width: 100;
+    }
+
+    .footer p {
+        font-size: 0.5rem;
+    }
+}
