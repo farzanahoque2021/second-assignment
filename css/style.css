@@ -332,3 +332,72 @@ main {
 
 
 }
+
+/* extra section style */
+.extra-section {
+    margin-bottom: 80px;
+}
+
+.extra-section h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+    text-align: center;
+}
+
+.extra-section p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.get-email {
+    text-align: center;
+}
+
+.get-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 110px;
+    padding: 110px;
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+.get-email input {
+    padding: 10px;
+}
+
+#reg {
+    color: #FFFFFF;
+    background: #FF900E;
+    border: none;
+}
+
+#email {
+    background-color: gainsboro;
+    border: none;
+}
+
+/* footer style */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF4E7;
+    padding: 20px 40px;
+    border-radius: 8px;
+    width: 130vh;
+    height: 5vh;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+}
